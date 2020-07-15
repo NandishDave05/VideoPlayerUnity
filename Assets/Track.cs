@@ -9,7 +9,7 @@ public class Track : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public VideoPlayer video;
     public Text timetext;
- 
+    public RawImage image;
 
     Slider tracking;
     bool slide = false;
